@@ -280,7 +280,7 @@ void maximumSlidingWindow(int arr[], int n, int k) {
 		}
 		q.push_back(i);
 	}
-
+      cout << arr[q.front()] << endl;
 }
 
 bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
